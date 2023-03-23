@@ -1,5 +1,9 @@
 <template>
   <div>
-   jsadjhhsadjahsjdhj
+<TheHeader></TheHeader>
   </div>
 </template>
+
+<style>
+@import "./assets/scss/main.scss";
+</style>
