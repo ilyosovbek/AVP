@@ -1,0 +1,102 @@
+.a-wrapper {
+    margin-top: 50px;
+    .a-top {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .a-text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 150%;
+            color: #000000
+        }
+
+        .a-line {
+            width: 45%;
+            height: 2px;
+            background: #000;
+        }
+    }
+
+    .a-center {
+        .a-title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 170%;
+            color: #333333;
+        }
+    }
+
+    .a-btm {
+        display: flex;
+
+        .btm-left {
+            width: 80%;
+
+            .btm-img {
+                width: 100%;
+            }
+        }
+
+        .btm-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .btm-ceo {
+                transform: translate(-70px,-65px);
+                display: flex;
+                align-items: center;
+                padding: 10px 15px;
+                gap: 15px;
+                background: #fff;
+
+                .ceo-img {
+                    width: 50px;
+                }
+
+                .ceo-texts {
+                    .ceo-name {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 140%;
+                        color: #000000;
+                    }
+
+                    .ceo-small {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 160%;
+                        color: #9C9C9C;
+                    }
+                }
+            }
+            .btm-button{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                .btn-text{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 160%;
+                    color: #9C9C9C
+                }
+                .btn-link{
+                    padding: 10px 15px;
+                    background: #2C3878;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size:12px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

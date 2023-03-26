@@ -1,0 +1,109 @@
+.m-line {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    .line {
+        margin: 60px 0 20px;
+        display: flex;
+        width: 60%;
+        height: 2px;
+        background: #000;
+    }
+}
+
+
+.m-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+        width: 40%;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 140%;
+        color: #333333;
+
+    }
+
+    .m-left {
+        position: relative;
+        top: 90px;
+        right: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background: #2C3878;
+        z-index: 1;
+
+        .l-top {
+            padding: 30px 0 40px 0;
+
+            .numberr {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 140%;
+                color: #FFFFFF;
+            }
+
+            .project {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 160%;
+                color: #FFFFFF;
+            }
+        }
+
+        .l-center {
+            .team-num {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 140%;
+                color: #FFFFFF;
+            }
+
+            .team {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 160%;
+                color: #FFFFFF;
+            }
+        }
+
+        .l-bottom {
+            padding: 30px 5px 40px 5px;
+
+            .mach-num {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 140%;
+                color: #FFFFFF;
+            }
+
+            .mach {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 160%;
+                color: #FFFFFF;
+            }
+        }
+
+    }
+}
+
+.m-bottom {
+    margin-top: 250px;
+    width: 100%;
+
+    .m-img {
+        width: 100%;
+    }
+}
