@@ -1,0 +1,105 @@
+.product {
+  width: 100%;
+  margin-top: 650px;
+  margin-bottom: 100px;
+
+  .start {
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .name {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12.66263px;
+      color: #000000;
+    }
+
+    .line {
+      width: 350px;
+      border-bottom: 1px solid black;
+    }
+  }
+
+  .product-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .guaranty {
+      width: 350px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 35.4909px;
+      line-height: 170%;
+      color: #333333;
+      margin-top: 18px;
+    }
+
+    .technology {
+      width: 460px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20.24546px;
+      line-height: 160%;
+      color: #9c9c9c;
+      margin-top: 18px;
+    }
+  }
+
+  .blocky {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #ffffff;
+    row-gap: 40px;
+    margin-top: 70px;
+
+    .mini-blocky {
+      display: flex;
+      justify-content: space-between;
+
+      .blocky-mini {
+        display: flex;
+        justify-content: space-between;
+      }
+      .blocky-text {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27.32526px;
+        line-height: 140%;
+        color: #333333;
+      }
+
+      .blocky-down {
+        width: 400px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15.24546px;
+        line-height: 160%;
+        color: #333333;
+        margin-top: 21px;
+        opacity: 0.9;
+      }
+
+      .extra-space {
+        padding-right: 5px;
+      }
+
+      .extra-blocky {
+        margin-left: 75px;
+      }
+
+      .extra-blocky-text {
+        scale: 2;
+      }
+    }
+  }
+}
