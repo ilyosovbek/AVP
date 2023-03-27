@@ -1,8 +1,8 @@
-.wrapper {
-  width: 100%;
+.ft-footer {
+  margin-top: 100px;
   background: #2c3878;
 
-  .mini-wrapper {
+  .ft-wrapper {
     padding: 36px 0;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,6 @@
 
     .right-block {
       .top-text {
-        font-family: "Poppins";
         font-style: normal;
         font-weight: 400;
         font-size: 17.24546px;
@@ -46,8 +45,10 @@
             border: 3px solid #ffffff;
         }
       }
-
-      
     }
   }
+}
+.ftb-wrapper{
+  display: flex;
+  justify-content: space-between;
 }

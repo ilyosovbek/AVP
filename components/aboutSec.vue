@@ -3,7 +3,7 @@
         <div class="container">
             <div class="a-wrapper">
                 <div class="a-top">
-                    <p class="a-text">о нас</p>
+                    <p class="a-text">О НАС</p>
                     <div class="a-line"></div>
                 </div>
                 <div class="a-center">

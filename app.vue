@@ -6,7 +6,7 @@
     <TheServices></TheServices>
     <TheProducts></TheProducts>
     <TheProject></TheProject>
-    <TheContact></TheContact>
+    <TheFooter></TheFooter>
   </div>
 </template>
 
