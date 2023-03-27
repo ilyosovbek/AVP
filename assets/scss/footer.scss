@@ -39,16 +39,61 @@
         border: 3px solid transparent;
         transition: 400ms;
 
-        &:hover{
-            background-color: #2c3878;
-            color: #ffffff;
-            border: 3px solid #ffffff;
+        &:hover {
+          background-color: #2c3878;
+          color: #ffffff;
+          border: 3px solid #ffffff;
         }
       }
     }
   }
 }
-.ftb-wrapper{
+.ftb-wrapper {
   display: flex;
   justify-content: space-between;
+  padding: 30px 0;
+
+  .ftb-left {
+    width: 50%;
+    .ftb-img {
+      width: 40%;
+      margin-bottom: 12px;
+    }
+
+    .ftb-text {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26.4909px;
+      line-height: 170%;
+      color: #333333;
+    }
+  }
+
+  .ftb-right {
+    width: 50%;
+
+    .ftb-title {
+      text-align: right;
+      font-family: "roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16.66263px;
+      line-height: 160%;
+      color: #333333;
+      margin-right: 18px;
+      margin-top: 25px;
+    }
+    .icons {
+      text-align: right;
+      display: flex;
+      justify-content: right;
+      gap: 21px;
+      margin-top: 10px;
+
+      .face {
+        width: 5%;
+      }
+    }
+  }
 }
