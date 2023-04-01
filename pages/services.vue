@@ -1,6 +1,9 @@
 <template>
     <div>
         <TheHeader></TheHeader>
+        <ServicesRental></ServicesRental>
+        <TheEngineer></TheEngineer>
+        <TheRental></TheRental>
         <the-footer></the-footer>
     </div>
 </template>
