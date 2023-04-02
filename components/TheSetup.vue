@@ -8,7 +8,7 @@
             <div class="s-wrapper">
                 <!-- CARD -->
                 <div class="s-card">
-                    <img src="../assets/img/tech-page/big.svg" alt="setup car" class="big-img">
+                    <img src="../assets/img/tech-page/1.svg" alt="setup car" class="big-img">
                     <div class="cr-top">
                         <img src="../assets/img/tech-page/logo.svg" alt="logo of card" class="cr-logo">
                         <p class="cr-top-text">TYSIM KR220C</p>
@@ -20,7 +20,7 @@
                 <!-- CARD END -->
                 <!-- CARD -->
                 <div class="s-card">
-                    <img src="../assets/img/tech-page/big.svg" alt="setup car" class="big-img">
+                    <img src="../assets/img/tech-page/2.svg" alt="setup car" class="big-img">
                     <div class="cr-top">
                         <img src="../assets/img/tech-page/logo.svg" alt="logo of card" class="cr-logo">
                         <p class="cr-top-text">TYSIM KR220C</p>
@@ -32,7 +32,7 @@
                 <!-- CARD END -->
                 <!-- CARD -->
                 <div class="s-card">
-                    <img src="../assets/img/tech-page/big.svg" alt="setup car" class="big-img">
+                    <img src="../assets/img/tech-page/3.svg" alt="setup car" class="big-img">
                     <div class="cr-top">
                         <img src="../assets/img/tech-page/logo.svg" alt="logo of card" class="cr-logo">
                         <p class="cr-top-text">TYSIM KR220C</p>
@@ -44,7 +44,7 @@
                 <!-- CARD END -->
                 <!-- CARD -->
                 <div class="s-card">
-                    <img src="../assets/img/tech-page/big.svg" alt="setup car" class="big-img">
+                    <img src="../assets/img/tech-page/4.svg" alt="setup car" class="big-img">
                     <div class="cr-top">
                         <img src="../assets/img/tech-page/logo.svg" alt="logo of card" class="cr-logo">
                         <p class="cr-top-text">TYSIM KR220C</p>

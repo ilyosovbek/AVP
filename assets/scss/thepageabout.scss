@@ -1,0 +1,131 @@
+.ab-wrapper {
+    margin-top: 100px;
+    .ab-top {
+        display: flex;
+        justify-content: center;
+
+        .ab-title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 140%;
+            color: #000000
+        }
+    }
+
+    .ab-center {
+        display: flex;
+        justify-content: center;
+
+        .ab-text {
+            width: 42%;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 170%;
+            text-align: center;
+            color: #333333;
+        }
+    }
+
+    .ab-btm {
+        max-width: 100%;
+
+        .ab-img {
+            width: 100%;
+        }
+    }
+
+}
+
+.ab-title-two {
+    margin-top: 60px;
+    width: 40%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 170%;
+    color: #000000;
+}
+
+.ab-btm {
+    display: flex;
+    justify-content: space-between;
+
+    .ab-left {
+        width: 70%;
+
+        .ab-img-two {
+            width: 100%;
+        }
+    }
+
+    .ab-right {
+        background: #2C3878;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .ab-two-top {
+            .ab-num {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 55px;
+                line-height: 160%;
+                color: #FFFFFF;
+            }
+
+            .ab-project {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: #FFFFFF;
+            }
+        }
+        .ab-two-center{
+            .ab-team{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 55px;
+                line-height: 160%;
+                color: #FFFFFF;
+            }
+            .team-two{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: #FFFFFF;
+            }
+        }
+        .ab-two-btm{
+            .ab-numm{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 55px;
+                line-height: 160%;
+                color: #FFFFFF;
+                margin-left: 85px;
+            }
+            .mach{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: #FFFFFF;
+                padding: 0 15px;
+            }
+        }
+    }
+}
+.prt-wrapper{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .prt-img{
+        width: 75%;
+    }
+}
