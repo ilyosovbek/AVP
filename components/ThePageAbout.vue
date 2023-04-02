@@ -12,7 +12,7 @@
                         заключается в следующем:.”</p>
                 </div>
                 <div class="ab-btm">
-                    <img src="../assets/img/about page/ab main.svg" alt="main img" class="ab-img">
+                    <img src="../assets/img/about-page/ab-main.svg" alt="main img" class="ab-img">
                 </div>
             </div>
             <div class="a-top">
@@ -25,7 +25,7 @@
             </h2>
             <div class="ab-btm">
                 <div class="ab-left">
-                    <img src="../assets/img/about page/ab main-2.svg" alt="img" class="ab-img-two">
+                    <img src="../assets/img/about-page/ab-main-2.svg" alt="img" class="ab-img-two">
                 </div>
                 <div class="ab-right">
                     <div class="ab-two-top">
@@ -49,14 +49,14 @@
                 <div class="a-line"></div>
             </div>
             <div class="prt-wrapper">
-                <img src="../assets/img/about page/ab main-3.svg" alt="" class="prt-img">
+                <img src="../assets/img/about-page/ab-main-3.svg" alt="" class="prt-img">
             </div>
             <div class="a-top">
                 <p class="a-text">КЛИНЕНТЫ</p>
                 <div class="a-line"></div>
             </div>
             <div class="prt-wrapper">
-                <img src="../assets/img/about page/ab main-4.svg" alt="" class="prt-img">
+                <img src="../assets/img/about-page/ab-main-4.svg" alt="" class="prt-img">
             </div>
             <div class="a-top">
                 <p class="a-text">SERVICE</p>
