@@ -1,0 +1,77 @@
+.rental {
+  width: 100%;
+
+  .rental-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .rental-main {
+      width: 10%;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 33px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+      margin-top: 1.5%;
+      margin-bottom: 4%;
+    }
+
+    .little {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 160%;
+      color: #000000;
+      background-color: #ffffff;
+      margin-bottom: 2%;
+    }
+
+    .rental-img {
+      max-width: 300%;
+      width: 100%;
+      margin-bottom: 4%;
+    }
+  }
+}
+
+.project-service{
+    .block {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+        margin-top: 3%;
+  
+        .block-img {
+          width: 60%;
+        }
+  
+        .mini-block {
+          width: 32%;
+  
+          .main-text {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 140%;
+            color: #333333;
+            margin-bottom: 12%;
+          }
+  
+          .mini-text {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+            color: #a8a8a8;
+          }
+        }
+      }
+
+}
