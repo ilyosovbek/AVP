@@ -1,51 +1,86 @@
 .navbar {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+
+  .img {
+    width: 20%;
+    @media (max-width: 1080px) {
+     width: 15%;
+    }
+    @media (max-width: 815px) {
+     width: 15%;
+    }
+  }
+
+  .menu {
     display: flex;
     justify-content: space-between;
-    padding: 15px 0;
+    align-items: center;
+    gap: 10px;
 
-    .img {
-        width: 20%;
+    @media (max-width: 1085px) {
+      gap: 0;
     }
 
-    .menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 10px;
+    .list {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 160%;
+      color: #333333;
+      padding: 10px 15px;
+      transition: 300ms;
+      border-radius: 10px;
+      &:hover {
+        background: #2c3878;
+        color: #fff;
+      }
 
-        .list {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 160%;
-            color: #333333;
-            padding: 10px 15px;
-            transition: 300ms;
-            border-radius: 10px;
-            &:hover{
-                background: #2C3878;
-                color: #fff;
-            }
-        }
+      @media (max-width: 1085px) {
+        padding: 5px 12px;
+        font-size: 11px;
+      }
+      @media (max-width: 815) {
+        padding: 4px 9px;
+        font-size: 8px;
+      }
+    }
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #ffffff;
+    background: #2c3878;
+    padding: 10px 15px;
+    transition: 500ms;
+    border-radius: 10px;
+
+    &:hover {
+      background: #fff;
+      color: #000;
     }
 
-    .contact {
-        display: flex;
-        align-items: center;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 150%;
-        color: #FFFFFF;
-        background: #2C3878;
-        padding: 10px 15px;
-        transition: 500ms;
-        border-radius: 10px;
-
-        &:hover {
-            background: #fff;
-            color: #000;
-        }
-    }
+    @media (max-width: 1085px) {
+        padding: 8px 12px;
+        font-size: 11px;
+        line-height: 80%;
+      }
+    @media (max-width: 815px) {
+        padding: 3px 8px;
+        font-size: 8px;
+        line-height: 80%;
+      }
+  }
 }
+
+
+
+
+
