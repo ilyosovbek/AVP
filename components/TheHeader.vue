@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="container">
-            <div class="navbar">
+            <div class="navbar" :class="isOpen ? 'open' : ''">
                 <img src="../assets/img/logo.svg" class="img" alt="logo">
                 <ul class="menu">
                     <li>
@@ -28,6 +28,7 @@
                 </p>
                 <!-- MENU OPEN -->
                 <div class="burger">
+                    <img src="../assets/img/logo.svg" class="img" alt="logo">
                     <ul class="bg-menu">
                         <li>
                             <NuxtLink class="list" to="/">Главные</NuxtLink>
@@ -62,3 +63,14 @@
         </div>
     </header>
 </template>
+<script>
+export default {
+    data() {
+        return {
+            isOpen: false,
+        }
+    }
+}
+
+
+</script>
