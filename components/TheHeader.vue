@@ -1,9 +1,9 @@
 <template>
     <header>
         <div class="container">
-            <div class="wrapper" :class="{isOpen}">
+            <div class="wrapper" :class="{ isOpen }">
+                <img src="../assets/img/logo.svg" class="img" alt="logo">
                 <div class="navbar">
-                    <img src="../assets/img/logo.svg" class="img" alt="logo">
                     <ul class="menu">
                         <li>
                             <NuxtLink class="list" to="/">Главные</NuxtLink>
@@ -31,8 +31,7 @@
 
                 </div>
                 <!-- MENU OPEN -->
-                <div class="burger"  :class="{isOpen}">
-                    <img src="../assets/img/logo.svg" class="img" alt="logo">
+                <div class="burger">
                     <ul class="bg-menu">
                         <li>
                             <NuxtLink class="list" to="/">Главные</NuxtLink>

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
     .navbar {
         width: 100%;
@@ -26,6 +27,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            
 
 
             .list {
@@ -96,12 +98,14 @@
     }
 
     .top-hd__brg {
+        padding: 5px 0;
         width: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
         cursor: pointer;
         display: none;
+        transition: 500ms;
 
         @media(max-width:675px) {
             display: block;
@@ -115,20 +119,12 @@
             border-radius: 25px;
         }
 
-        .line-1.isOpen {
-            transform: rotate(45deg) translateY(17px);
-        }
-
         .line-2 {
             width: 100%;
             margin-bottom: 7px;
             height: 5px;
             background: #000;
             border-radius: 25px;
-        }
-
-        .line-2.isOpen {
-            opacity: 0;
         }
 
         .line-3 {
@@ -138,13 +134,10 @@
             background: #000;
             border-radius: 25px;
         }
-
-        .line-3.isOpen {
-            transform: rotate(-45deg) translateY(-17px);
-        }
     }
 
     .burger {
+        z-index: 22;
         width: 100%;
         z-index: 2;
         display: none;
@@ -154,6 +147,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            transition: 500ms;
 
         }
 
@@ -161,17 +155,28 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
+            transition: 500ms;
         }
     }
 
-    .burger.isOpen {
-        display: block;
-        transform: translate(0);
-    }
+ 
 }
 .isOpen{
-    .img{
-        display: none;
+    .burger{
+        display: block;
+        transform: translate(0);
+        transition: 500ms;
+    }
+    .line-1 {
+        transform: rotate(45deg) translateY(17px);
+        transition: 500ms;
+    }
+    .line-2{
+        opacity: 0;
+        transition: 500ms;
+    }
+    .line-3{
+        transform: rotate(-45deg) translateY(-17px);
+        transition: 500ms;
     }
 }
