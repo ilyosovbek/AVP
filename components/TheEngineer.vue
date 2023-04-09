@@ -156,11 +156,8 @@
   </section>
 </template>
 
-<<<<<<< Updated upstream
 <script>
 export default {};
 </script>
 
 <style lang="scss"></style>
-=======
->>>>>>> Stashed changes

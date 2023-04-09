@@ -22,11 +22,6 @@
                     <li>
                         <NuxtLink class="list" to="/about">О нас</NuxtLink>
                     </li>
-            </ul>
-            <a href="#!" class="contact">Связаться с нами</a>
-        </div>
-    </div>
-</header></template>
                 </ul>
                 <p>
                     <NuxtLink class="contact" to="/contact">Связаться с нами</NuxtLink>
@@ -65,5 +60,5 @@
                 </div>
             </div>
         </div>
-    </header>
-</template>
+    </div>
+</header></template>

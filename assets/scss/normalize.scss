@@ -1,5 +1,4 @@
 * {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -74,9 +73,9 @@ p {
   }
 
   .a-line {
-    width: 40%;
+    width: 45%;
     height: 1px;
-    background: #333333;
+    background: #000;
   }
 
 
@@ -216,3 +215,19 @@ p {
   }
 }
 
+
+.list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #333333;
+  padding: 10px 15px;
+  transition: 300ms;
+  border-radius: 10px;
+
+  &:hover {
+    background: #2C3878;
+    color: #fff;
+  }
+}

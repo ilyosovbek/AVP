@@ -12,11 +12,7 @@
                         заключается в следующем:.”</p>
                 </div>
                 <div class="ab-btm">
-<<<<<<< Updated upstream
                     <img src="../assets/img/about page/ab main.svg" alt="main img" class="ab-img">
-=======
-                    <img src="../assets/img/about-page/ab-main.svg" alt="main img" class="ab-img">
->>>>>>> Stashed changes
                 </div>
             </div>
             <div class="a-top">
@@ -29,11 +25,7 @@
             </h2>
             <div class="ab-btm">
                 <div class="ab-left">
-<<<<<<< Updated upstream
                     <img src="../assets/img/about page/ab main-2.svg" alt="img" class="ab-img-two">
-=======
-                    <img src="../assets/img/about-page/ab-main-2.svg" alt="img" class="ab-img-two">
->>>>>>> Stashed changes
                 </div>
                 <div class="ab-right">
                     <div class="ab-two-top">
@@ -57,22 +49,14 @@
                 <div class="a-line"></div>
             </div>
             <div class="prt-wrapper">
-<<<<<<< Updated upstream
                 <img src="../assets/img/about page/ab main-3.svg" alt="" class="prt-img">
-=======
-                <img src="../assets/img/about-page/ab-main-3.svg" alt="" class="prt-img">
->>>>>>> Stashed changes
             </div>
             <div class="a-top">
                 <p class="a-text">КЛИНЕНТЫ</p>
                 <div class="a-line"></div>
             </div>
             <div class="prt-wrapper">
-<<<<<<< Updated upstream
                 <img src="../assets/img/about page/ab main-4.svg" alt="" class="prt-img">
-=======
-                <img src="../assets/img/about-page/ab-main-4.svg" alt="" class="prt-img">
->>>>>>> Stashed changes
             </div>
             <div class="a-top">
                 <p class="a-text">SERVICE</p>
