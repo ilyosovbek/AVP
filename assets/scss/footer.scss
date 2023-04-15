@@ -85,14 +85,14 @@
           font-size: 11px;
           line-height: 100%;
           margin-top: 18px;
-          padding: 5px 12px
+          padding: 5px 12px;
         }
 
         @media (max-width: 500px) {
           font-size: 8px;
           line-height: 100%;
           margin-top: 10px;
-          padding: 3px 7px
+          padding: 3px 7px;
         }
 
         &:hover {
@@ -110,7 +110,12 @@
   padding: 30px 0;
 
   .ftb-left {
-    width: 50%;
+    width: 67%;
+
+    @media (max-width: 450px) {
+      width: 50%;
+    }
+    
     .ftb-img {
       width: 40%;
       margin-bottom: 12px;
@@ -123,32 +128,58 @@
       font-size: 26.4909px;
       line-height: 170%;
       color: #333333;
+
+      @media (max-width: 850px) {
+        font-size: 22px;
+      }
+      @media (max-width: 620px) {
+        font-size: 18px;
+      }
+      @media (max-width: 500px) {
+        font-size: 16px;
+      }
     }
   }
 
   .ftb-right {
-    width: 50%;
+    width: 30%;
+
+    @media (max-width: 450px) {
+      width: 50%;
+      padding-left: 5%;
+    }
 
     .ftb-title {
-      text-align: right;
+      display: flex;
+      justify-content: center;
       font-family: "roboto";
       font-style: normal;
       font-weight: 400;
       font-size: 16.66263px;
       line-height: 160%;
       color: #333333;
-      margin-right: 18px;
       margin-top: 25px;
+
+      @media (max-width: 620px) {
+        margin-top: 10px;
+        font-size: 14px;
+      }
+      @media (max-width: 620px) {
+        font-size: 13px;
+      }
     }
     .icons {
-      text-align: right;
       display: flex;
-      justify-content: right;
-      gap: 21px;
+      justify-content: center;
       margin-top: 10px;
+      gap: 3%;
 
       .face {
-        width: 5%;
+        width: 8%;
+
+        @media (max-width: 850px) {
+         width: 12%;
+        }
       }
     }
   }

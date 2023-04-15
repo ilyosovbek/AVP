@@ -20,6 +20,11 @@
       color: #000000;
       margin-top: 1.5%;
       margin-bottom: 4%;
+
+      @media (max-width: 720px) {
+        width: 30%;
+        font-size: 22px;
+      }
     }
 
     .little {
@@ -31,11 +36,14 @@
       color: #000000;
       background-color: #ffffff;
       margin-bottom: 2%;
+
+      @media (max-width: 720px) {
+        font-size: 14px;
+      }
     }
 
     .rental-img {
-      max-width: 300%;
-      width: 100%;
+      width: 300%;
       margin-bottom: 4%;
     }
   }

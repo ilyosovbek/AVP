@@ -2,19 +2,38 @@
   width: 100%;
 
   .wrapper {
-    width: 100%;
+    display: block;
 
     .block {
       display: flex;
       justify-content: space-between;
       margin-bottom: 5%;
 
+      @media (max-width: 620px) {
+        display: block;
+        margin-bottom: 8%;
+      }
+
       .block-img {
         width: 60%;
+
+        @media (max-width: 620px) {
+          width: 100%;
+          padding: 0 15%;
+          margin-bottom: 3%;
+        }
       }
 
       .mini-block {
-        width: 32%;
+        width: 35%;
+
+        @media (max-width: 900px) {
+          width: 37%;
+        }
+
+        @media (max-width: 620px) {
+          width: 100%;
+        }
 
         .main-text {
           font-family: "Poppins";
@@ -24,6 +43,23 @@
           line-height: 140%;
           color: #333333;
           margin-bottom: 12%;
+          padding-left: 5px;
+
+          @media (max-width: 1050px) {
+            font-size: 28px;
+          }
+          @media (max-width: 900px) {
+            font-size: 24px;
+            margin-bottom: 8%;
+          }
+          @media (max-width: 740px) {
+            font-size: 20px;
+          }
+
+          @media (max-width: 620px) {
+            text-align: center;
+            margin-bottom: 3%;
+          }
         }
 
         .mini-text {
@@ -33,6 +69,20 @@
           font-size: 20px;
           line-height: 160%;
           color: #a8a8a8;
+
+          @media (max-width: 1050px) {
+            font-size: 18px;
+          }
+          @media (max-width: 900px) {
+            font-size: 15px;
+          }
+          @media (max-width: 740px) {
+            font-size: 14px;
+          }
+          @media (max-width: 620px) {
+            padding: 0 10%;
+            text-align: center;
+          }
         }
       }
     }
