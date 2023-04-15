@@ -11,6 +11,7 @@
       position: relative;
       margin-top: 45px;
       transition: 500ms;
+      align-items: center;
 
       &:hover {
         filter: drop-shadow(0px 12px 12px rgba(0, 0, 0, 0.35));

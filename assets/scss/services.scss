@@ -1,6 +1,6 @@
 .service {
   width: 100%;
-  margin-top: 138px;
+  margin-top: 12%;
 
   .start {
     display: flex;
@@ -13,10 +13,14 @@
       font-weight: 500;
       font-size: 18px;
       color: #000000;
+
+      @media(max-width:670px){
+      font-size: 12px;
+      }
     }
 
     .line {
-      width: 350px;
+      width: 32%;
       border-bottom: 1px solid black;
     }
   }
@@ -29,6 +33,10 @@
     line-height: 170%;
     color: #333333;
     margin-top: 18px;
+
+    @media(max-width:670px){
+      font-size: 22px;
+      }
   }
 
   .technology {
@@ -40,6 +48,11 @@
     line-height: 160%;
     color: #9c9c9c;
     margin-top: 18px;
+    margin-bottom: 3%;
+
+    @media(max-width:670px){
+      font-size: 12px;
+      }
   }
 
   .blocky {
@@ -56,10 +69,22 @@
       display: flex;
       justify-content: space-between;
 
+      @media(max-width:670px){
+        padding: 10px 20px 20px 0;
+      }
+
+      @media(max-width:520px){
+        padding: 5px 10px 10px 0;
+      }
+
       .blocky-mini {
         display: flex;
         justify-content: space-between;
         gap: 15px;
+
+        @media(max-width:670px){
+          gap: 5px;
+        }
       }
 
       .blocky-text {
@@ -71,25 +96,38 @@
         line-height: 140%;
         color: #333333;
         margin-left: 30px;
+
+        @media(max-width:890px){
+          font-size: 14px;
+          margin-left: 20px;
+        }
+
+        @media(max-width:670px){
+          font-size: 12px;
+          margin-left: 5px;
+        }
+
+        @media(max-width:520px){
+          font-size: 10px;
+          margin-left: 5px;;
+          }
       }
 
       .extra-blocky-text {
         scale: 2;
+
+        @media(max-width:670px){
+          scale: 1.5;
+        }
       }
 
       &:hover {
         box-shadow:rgba(50, 50, 93, 0.25) 0px 30px 18px -117px, rgba(0, 0, 0, 0.3) 0px 70px 30px -30px, rgba(10, 37, 64, 0.35) 0px -4px 6px 0px inset
       }
     }
-
-    .blocky-extra {}
   }
 
   .blocky-workers {
-    scale: 375%;
-    position: relative;
-    top: 285px;
-    left: 568px;
-    z-index: 0;
+    width: 375%;
   }
 }
