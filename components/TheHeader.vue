@@ -24,12 +24,10 @@
                             <NuxtLink class="list" to="/about">О нас</NuxtLink>
                         </li>
                     </ul>
-                    <p>
-                        <NuxtLink class="contact" to="/contact">Связаться с нами</NuxtLink>
-                    </p>
-
-
                 </div>
+                <p>
+                    <NuxtLink class="contact" to="/contact">Связаться с нами</NuxtLink>
+                </p>
                 <!-- MENU OPEN -->
                 <div class="burger">
                     <ul class="bg-menu">

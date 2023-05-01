@@ -1,5 +1,13 @@
 .ab-wrapper {
     margin-top: 100px;
+
+    @media(max-width:775px) {
+        margin-top: 50px;
+    }
+    @media(max-width:535px) {
+        margin-top: 30px;
+    }
+
     .ab-top {
         display: flex;
         justify-content: center;
@@ -9,7 +17,16 @@
             font-weight: 700;
             font-size: 24px;
             line-height: 140%;
-            color: #000000
+            color: #000000;
+            @media(max-width:775px) {
+                font-size: 22px;
+            }
+            @media(max-width:635px) {
+                font-size: 20px;
+            }
+            @media(max-width:535px) {
+                font-size: 18px;
+            }
         }
     }
 
@@ -25,6 +42,18 @@
             line-height: 170%;
             text-align: center;
             color: #333333;
+            @media(max-width:700px) {
+                width: 60%;
+            }
+            @media(max-width:535px) {
+                font-size: 12px;
+            }
+            @media(max-width:450px) {
+                width: 70%;
+            }
+            @media(max-width:385px) {
+                width: 80%;
+            }
         }
     }
 
@@ -84,15 +113,17 @@
                 color: #FFFFFF;
             }
         }
-        .ab-two-center{
-            .ab-team{
+
+        .ab-two-center {
+            .ab-team {
                 font-style: normal;
                 font-weight: 400;
                 font-size: 55px;
                 line-height: 160%;
                 color: #FFFFFF;
             }
-            .team-two{
+
+            .team-two {
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
@@ -100,8 +131,9 @@
                 color: #FFFFFF;
             }
         }
-        .ab-two-btm{
-            .ab-numm{
+
+        .ab-two-btm {
+            .ab-numm {
                 font-style: normal;
                 font-weight: 400;
                 font-size: 55px;
@@ -109,7 +141,8 @@
                 color: #FFFFFF;
                 margin-left: 85px;
             }
-            .mach{
+
+            .mach {
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
@@ -120,12 +153,14 @@
         }
     }
 }
-.prt-wrapper{
+
+.prt-wrapper {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    .prt-img{
+
+    .prt-img {
         width: 75%;
     }
 }

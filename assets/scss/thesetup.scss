@@ -1,7 +1,13 @@
 .s-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+
+    @media(max-width:560px) {
+        display: flex;
+        justify-content: center;
+    }
 
     .s-card {
         margin-top: 80px;
@@ -9,7 +15,22 @@
         width: 40%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
+
+        @media(max-width:800px) {
+            width: 45%;
+        }
+
+        @media(max-width:645px) {
+            width: 48%;
+            margin-top: 60px;
+        }
+
+        @media(max-width:560px) {
+            width: 80%;
+            margin-top: 50px;
+        }
 
         .big-img {
             width: 100%;
@@ -27,16 +48,35 @@
             background: #fff;
             filter: drop-shadow(1.3896px 1.3896px 5.55842px rgba(0, 0, 0, 0.05));
 
+            @media(max-width:1000px) {
+                padding: 0;
+            }
+
             .cr-top-text {
                 font-style: normal;
                 font-weight: 600;
                 font-size: 14px;
                 line-height: 140%;
                 color: #000000;
+
+                @media(max-width:940px) {
+                    font-size: 13px;
+                }
+
+                @media(max-width:560px) {
+                    font-size: 12px;
+                }
             }
 
             .cr-logo {
                 width: 25%;
+
+                @media(max-width:940px) {
+                    width: 30%;
+                }
+                @media(max-width:560px) {
+                    width: 25%;
+                }
             }
         }
 
@@ -47,6 +87,10 @@
             font-size: 14px;
             line-height: 160%;
             color: #9C9C9C;
+
+            @media(max-width:560px) {
+                font-size: 12px;
+            }
         }
 
         .cr-link {
@@ -59,6 +103,13 @@
             background: #2C3878;
             border: 1px solid #2C3878;
             transition: 500ms;
+
+            @media(max-width:940px) {
+                font-size: 14px;
+            }
+            @media(max-width:560px) {
+                font-size: 12px;
+            }
 
             &:hover {
                 background: #fff;

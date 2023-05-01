@@ -28,7 +28,9 @@
                             <p class="btn-text">
                                 ПОДРОБНОСТИ ВСЯ ИНФОРМАЦИЯ
                             </p>
-                            <a href="#!" class="btn-link">Узнать больше</a>
+                            <a>
+                                <NuxtLink class="btn-link" to="/about">Узнать больше</NuxtLink>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -5,6 +5,23 @@
         font-size: 30px;
         line-height: 170%;
         color: #333333;
+
+        @media(max-width:830px) {
+            font-size: 26px;
+        }
+
+        @media(max-width:630px) {
+            font-size: 24px;
+        }
+
+        @media(max-width:400px) {
+            font-size: 20px;
+        }
+
+        @media(max-width:320px) {
+            font-size: 16px;
+        }
+
     }
 
     .ser-top-text {
@@ -13,6 +30,23 @@
         font-size: 24px;
         line-height: 160%;
         color: #9C9C9C;
+
+        @media(max-width:830px) {
+            font-size: 22px;
+        }
+
+        @media(max-width:630px) {
+            font-size: 20px;
+        }
+
+        @media(max-width:400px) {
+            font-size: 16px;
+        }
+
+        @media(max-width:320px) {
+            font-size: 14px;
+        }
+
     }
 }
 
@@ -20,6 +54,23 @@
     margin: 100px 0 150px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media(max-width:735px) {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 70px 0 120px;
+    }
+
+    @media(max-width:575px) {
+        margin: 50px 0 100px;
+    }
+
+    @media(max-width:400px) {
+        margin: 30px 0 70px;
+    }
 
     .ser-card {
         width: 30%;
@@ -28,6 +79,15 @@
         align-items: center;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 0.858842px 0.171768px rgba(0, 0, 0, 0.1);
         transition: 500ms;
+
+        @media(max-width:735px) {
+            width: 45%;
+            margin-bottom: 30px;
+        }
+
+        @media(max-width:450px) {
+            width: 80%;
+        }
 
         .ser-card-img {
             width: 20%;
@@ -39,12 +99,21 @@
         }
 
         .ser-card-title {
+            text-align: center;
             padding-top: 15px;
             font-style: normal;
             font-weight: 600;
             font-size: 21px;
             line-height: 140%;
             color: #333333;
+
+            @media(max-width:915px) {
+                font-size: 19px;
+            }
+
+            @media(max-width:575px) {
+                font-size: 16px;
+            }
         }
 
         .ser-card-text {
@@ -56,17 +125,37 @@
             line-height: 160%;
             text-align: center;
             color: #9C9C9C;
+
+            @media(max-width:915px) {
+                font-size: 19px;
+                padding: 5px;
+            }
+
+            @media(max-width:960px) {
+                width: 80%;
+            }
+
+            @media(max-width:800px) {
+                width: 90%;
+            }
+
+            @media(max-width:575px) {
+                font-size: 16px;
+            }
         }
 
         &:hover {
-            background:#2C3878;
-            .ser-card-title{
+            background: #2C3878;
+
+            .ser-card-title {
                 color: #fff;
             }
+
             .ser-card-text {
                 color: #fff;
             }
-            .ser-card-img{
+
+            .ser-card-img {
                 background: #fff;
             }
         }

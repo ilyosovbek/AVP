@@ -7,7 +7,11 @@
         </p>
         <div class="right-block">
           <p class="top-text">Свяжитесь с нами ниже, чтобы работать вместе</p>
-          <button class="connect">Связаться с нами</button>
+          <button>
+            <NuxtLink class="connect" to="/contact">
+              Связаться с нами
+            </NuxtLink>
+          </button>
         </div>
       </div>
     </div>
