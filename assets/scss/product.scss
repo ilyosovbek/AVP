@@ -38,7 +38,8 @@
     }
 
     .guaranty {
-      width: 350px;
+      max-width: 350px;
+      width: 100%;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 600;
@@ -53,7 +54,6 @@
     }
 
     .technology {
-      width: 460px;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 400;
@@ -99,10 +99,12 @@
         @media (max-width: 600px) {
           font-size: 18px;
         }
+        @media (max-width: 515px) {
+          font-size: 16px;
+        }
       }
 
       .blocky-down {
-        width: 400px;
         font-family: "Poppins";
         font-style: normal;
         font-weight: 400;
@@ -117,6 +119,10 @@
           line-height: 100%;
           font-size: 12px;
         }
+        @media (max-width: 515px) {
+          font-size: 10px;
+          line-height: 140%;
+        }
       }
 
       .extra-space {
@@ -128,6 +134,9 @@
 
         @media (max-width: 600px) {
           margin-left: 40px;
+        }
+        @media (max-width: 515px) {
+          margin-left: 10px;
         }
       }
 
