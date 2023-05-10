@@ -14,184 +14,251 @@
 
 
 .m-wrapper {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
 
-    .title {
-        width: 40%;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 140%;
-        color: #333333;
-
-        @media(max-width:925px) {
-            font-size: 40px;
-        }
-
-        @media(max-width:841px) {
-            font-size: 36px;
-        }
-
-        @media(max-width:755px) {
-            font-size: 32px;
-        }
-
-        @media(max-width:475px) {
-            font-size: 26px;
-        }
-    }
-
-    .m-left {
+    .m-top {
         position: relative;
-        top: 90px;
-        right: 140px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        background: #2C3878;
-        z-index: 1;
+        justify-content: space-between;
 
-        @media(max-width:755px) {
-            top: 0;
-            right: 35px;
+        @media(max-width:470px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
-        .l-top {
-            padding: 30px 0 40px 0;
+        .title {
+            width: 40%;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 140%;
+            color: #333333;
 
-            @media (max-width:575px) {
-                padding: 15px 0 25px 0;
+            @media(max-width:925px) {
+                font-size: 40px;
             }
 
-            .numberr {
-                font-style: normal;
-                font-weight: 400;
-                font-size: 50px;
-                line-height: 140%;
-                color: #FFFFFF;
-
-                @media(max-width:968px) {
-                    font-size: 44px;
-                }
-
-                @media(max-width:810px) {
-                    font-size: 40px;
-                }
-
-                @media(max-width:755px) {
-                    font-size: 36px;
-                }
-
-                @media(max-width:575px) {
-                    font-size: 30px;
-                }
-
-                @media(max-width:475px) {
-                    font-size: 26px;
-                }
+            @media(max-width:841px) {
+                font-size: 36px;
             }
 
-            .project {
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 160%;
-                color: #FFFFFF;
+            @media(max-width:755px) {
+                font-size: 32px;
+            }
+
+            @media(max-width:475px) {
+                font-size: 26px;
+            }
+
+            @media(max-width:470px) {
+                width: 100%;
+                text-align: center;
             }
         }
 
-        .l-center {
-            .team-num {
-                font-style: normal;
-                font-weight: 400;
-                font-size: 50px;
-                line-height: 140%;
-                color: #FFFFFF;
+        .m-left {
+            position: absolute;
+            top: 55px;
+            right: 140px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            background: #2C3878;
+            z-index: 1;
 
-                @media(max-width:968px) {
-                    font-size: 44px;
+            @media(max-width:755px) {
+                top: 0;
+                right: 35px;
+            }
+
+            @media(max-width:520px) {
+                z-index: 0;
+            }
+
+            @media(max-width:470px) {
+                position: relative;
+                top: 0;
+                right: 0;
+            }
+
+            .l-top {
+                padding: 30px 0 40px 0;
+
+                @media (max-width:575px) {
+                    padding: 15px 0 25px 0;
                 }
 
-                @media(max-width:810px) {
-                    font-size: 40px;
+                @media (max-width:450px) {
+                    padding: 5px 0 15px 0;
                 }
 
-                @media(max-width:755px) {
-                    font-size: 36px;
+                .numberr {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 50px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+
+                    @media(max-width:968px) {
+                        font-size: 44px;
+                    }
+
+                    @media(max-width:810px) {
+                        font-size: 40px;
+                    }
+
+                    @media(max-width:755px) {
+                        font-size: 36px;
+                    }
+
+                    @media(max-width:575px) {
+                        font-size: 30px;
+                    }
+
+                    @media(max-width:475px) {
+                        font-size: 26px;
+                    }
+
+                    @media(max-width:430px) {
+                        font-size: 20px;
+                    }
                 }
 
-                @media(max-width:575px) {
-                    font-size: 30px;
-                }
+                .project {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 160%;
+                    color: #FFFFFF;
 
-                @media(max-width:475px) {
-                    font-size: 26px;
+                    @media(max-width:475px) {
+                        font-size: 12px;
+                    }
                 }
             }
 
-            .team {
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 160%;
-                color: #FFFFFF;
+            .l-center {
+                .team-num {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 50px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+
+                    @media(max-width:968px) {
+                        font-size: 44px;
+                    }
+
+                    @media(max-width:810px) {
+                        font-size: 40px;
+                    }
+
+                    @media(max-width:755px) {
+                        font-size: 36px;
+                    }
+
+                    @media(max-width:575px) {
+                        font-size: 30px;
+                    }
+
+                    @media(max-width:475px) {
+                        font-size: 26px;
+                    }
+
+                    @media(max-width:430px) {
+                        font-size: 20px;
+                    }
+                }
+
+                .team {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 160%;
+                    color: #FFFFFF;
+
+                    @media(max-width:430px) {
+                        font-size: 12px;
+                    }
+                }
             }
-        }
 
-        .l-bottom {
-            padding: 30px 5px 40px 5px;
+            .l-bottom {
+                padding: 30px 5px 40px 5px;
 
-            @media (max-width:575px) {
-                padding: 15px 5px 25px 5px;
-            }
-
-            .mach-num {
-                font-style: normal;
-                font-weight: 400;
-                font-size: 50px;
-                line-height: 140%;
-                color: #FFFFFF;
-
-                @media(max-width:968px) {
-                    font-size: 44px;
+                @media (max-width:575px) {
+                    padding: 15px 5px 25px 5px;
                 }
 
-                @media(max-width:810px) {
-                    font-size: 40px;
+                @media (max-width:575px) {
+                    padding: 5px 5px 15px 5px;
                 }
 
-                @media(max-width:755px) {
-                    font-size: 36px;
+                .mach-num {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 50px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+
+                    @media(max-width:968px) {
+                        font-size: 44px;
+                    }
+
+                    @media(max-width:810px) {
+                        font-size: 40px;
+                    }
+
+                    @media(max-width:755px) {
+                        font-size: 36px;
+                    }
+
+                    @media(max-width:575px) {
+                        font-size: 30px;
+                    }
+
+                    @media(max-width:475px) {
+                        font-size: 26px;
+                    }
+
+                    @media(max-width:430px) {
+                        font-size: 20px;
+                    }
                 }
 
-                @media(max-width:575px) {
-                    font-size: 30px;
-                }
+                .mach {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 160%;
+                    color: #FFFFFF;
 
-                @media(max-width:475px) {
-                    font-size: 26px;
+                    @media(max-width:430px) {
+                        font-size: 10px;
+                    }
                 }
-            }
-
-            .mach {
-                font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 160%;
-                color: #FFFFFF;
             }
         }
     }
+
+
 }
 
 .m-bottom {
-    margin-top: 250px;
     width: 100%;
 
     .m-img {
         width: 100%;
+
+        @media(max-width:575px) {
+            margin-top: 50px;
+        }
+
+        @media(max-width:450px) {
+            height: 430px;
+            width: 100%;
+        }
     }
 }

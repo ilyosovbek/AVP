@@ -4,6 +4,7 @@
     @media(max-width:775px) {
         margin-top: 50px;
     }
+
     @media(max-width:535px) {
         margin-top: 30px;
     }
@@ -18,12 +19,15 @@
             font-size: 24px;
             line-height: 140%;
             color: #000000;
+
             @media(max-width:775px) {
                 font-size: 22px;
             }
+
             @media(max-width:635px) {
                 font-size: 20px;
             }
+
             @media(max-width:535px) {
                 font-size: 18px;
             }
@@ -42,15 +46,19 @@
             line-height: 170%;
             text-align: center;
             color: #333333;
+
             @media(max-width:700px) {
                 width: 60%;
             }
+
             @media(max-width:535px) {
                 font-size: 12px;
             }
+
             @media(max-width:450px) {
                 width: 70%;
             }
+
             @media(max-width:385px) {
                 width: 80%;
             }
@@ -64,25 +72,54 @@
             width: 100%;
         }
     }
-
 }
 
 .ab-title-two {
     margin-top: 60px;
-    width: 40%;
+    width: 45%;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 170%;
     color: #000000;
+
+    @media(max-width:735px) {
+        font-size: 26px;
+    }
+
+    @media(max-width:675px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    @media(max-width:500px) {
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    @media(max-width:380px) {
+        font-size: 20px;
+        margin-top: 20px;
+    }
 }
 
-.ab-btm {
+.ab-btm-two {
     display: flex;
     justify-content: space-between;
 
+    @media(max-width:675px) {
+        display: flex;
+        flex-direction: column;
+    }
+
     .ab-left {
         width: 70%;
+
+        @media(max-width:900px) {
+            width: 100%;
+        }
 
         .ab-img-two {
             width: 100%;
@@ -94,15 +131,41 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
 
         .ab-two-top {
             .ab-num {
+                display: flex;
+                justify-content: center;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 55px;
                 line-height: 160%;
                 color: #FFFFFF;
+
+                @media(max-width:968px) {
+                    font-size: 44px;
+                }
+
+                @media(max-width:810px) {
+                    font-size: 40px;
+                }
+
+                @media(max-width:755px) {
+                    font-size: 36px;
+                }
+
+                @media(max-width:575px) {
+                    font-size: 30px;
+                }
+
+                @media(max-width:475px) {
+                    font-size: 26px;
+                }
+
+                @media(max-width:430px) {
+                    font-size: 20px;
+                }
             }
 
             .ab-project {
@@ -116,11 +179,37 @@
 
         .ab-two-center {
             .ab-team {
+                display: flex;
+                justify-content: center;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 55px;
                 line-height: 160%;
                 color: #FFFFFF;
+
+                @media(max-width:968px) {
+                    font-size: 44px;
+                }
+
+                @media(max-width:810px) {
+                    font-size: 40px;
+                }
+
+                @media(max-width:755px) {
+                    font-size: 36px;
+                }
+
+                @media(max-width:575px) {
+                    font-size: 30px;
+                }
+
+                @media(max-width:475px) {
+                    font-size: 26px;
+                }
+
+                @media(max-width:430px) {
+                    font-size: 20px;
+                }
             }
 
             .team-two {
@@ -134,21 +223,49 @@
 
         .ab-two-btm {
             .ab-numm {
+                display: flex;
+                justify-content: center;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 55px;
                 line-height: 160%;
                 color: #FFFFFF;
-                margin-left: 85px;
+
+                @media(max-width:968px) {
+                    font-size: 44px;
+                }
+
+                @media(max-width:810px) {
+                    font-size: 40px;
+                }
+
+                @media(max-width:755px) {
+                    font-size: 36px;
+                }
+
+                @media(max-width:575px) {
+                    font-size: 30px;
+                }
+
+                @media(max-width:475px) {
+                    font-size: 26px;
+                }
+
+                @media(max-width:430px) {
+                    font-size: 20px;
+                }
             }
 
             .mach {
+                display: flex;
+                text-align: center;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 160%;
                 color: #FFFFFF;
                 padding: 0 15px;
+
             }
         }
     }
@@ -157,10 +274,22 @@
 .prt-wrapper {
     margin-top: 100px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 
     .prt-img {
         width: 75%;
+
+        @media(max-width:575px) {
+            width: 100%;
+        }
+    }
+
+    @media(max-width:575px) {
+        margin-top: 50px;
+    }
+
+    @media(max-width:400px) {
+        margin-top: 20px;
     }
 }

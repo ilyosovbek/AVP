@@ -29,8 +29,7 @@
                         </label>
                         <h3 class="fr-title">Phone Number</h3>
                         <label for="tel">
-                            <input type="tel" id="tel" class="tel" placeholder="Phone number" required
-                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                            <input type="tel" id="tel" class="tel" placeholder="Phone number" required>
                         </label>
                         <h3 class="fr-title">Message</h3>
                         <label for="mess">
@@ -75,13 +74,3 @@
         </div>
     </section>
 </template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style lang="sass" scoped>
-
-</style>

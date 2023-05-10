@@ -29,7 +29,7 @@
                                 ПОДРОБНОСТИ ВСЯ ИНФОРМАЦИЯ
                             </p>
                             <a>
-                                <NuxtLink class="btn-link" to="/about">Узнать больше</NuxtLink>
+                                <NuxtLink class="btn-link" to="/services">Узнать больше</NuxtLink>
                             </a>
                         </div>
                     </div>

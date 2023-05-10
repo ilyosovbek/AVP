@@ -20,10 +20,10 @@
                 <div class="a-line"></div>
             </div>
             <h2 class="ab-title-two">
-                ЯВНЫЙ ЛИДЕР
+                ЯВНЫЙ ЛИДЕР<br>
                 КОМПАНИЯ ВЫСШЕГО УРОВНЯ
             </h2>
-            <div class="ab-btm">
+            <div class="ab-btm-two">
                 <div class="ab-left">
                     <img src="../assets/img/about-page/ab-main-2.svg" alt="img" class="ab-img-two">
                 </div>

@@ -1,4 +1,8 @@
 .ct-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     .ct-top {
         display: flex;
         flex-direction: column;
@@ -10,7 +14,24 @@
             font-weight: 700;
             font-size: 30px;
             line-height: 140%;
-            color: #000000
+            color: #000000;
+            margin-top: 30px;
+
+            @media(max-width:840px) {
+                font-size: 26px;
+            }
+
+            @media(max-width:640px) {
+                font-size: 24px;
+            }
+
+            @media(max-width:480px) {
+                font-size: 22px;
+            }
+
+            @media(max-width:320px) {
+                font-size: 18px;
+            }
         }
 
         .ct-text {
@@ -20,19 +41,35 @@
             font-size: 26px;
             line-height: 160%;
             text-align: center;
-            color: #000000
+            color: #000000;
+
+            @media(max-width:840px) {
+                font-size: 24px;
+            }
+
+            @media(max-width:640px) {
+                font-size: 22px;
+            }
+
+            @media(max-width:480px) {
+                font-size: 20px;
+            }
+
+            @media(max-width:320px) {
+                font-size: 16px;
+            }
         }
     }
 
     .ct-center {
         width: 80%;
-        margin-left: 135px;
+
 
 
 
         .form {
             width: 100%;
-
+    
             .fr-title {
                 font-style: normal;
                 font-weight: 500;
@@ -60,6 +97,7 @@
                         border: 1px solid #9C9C9C;
                         width: 100%;
                         padding: 18px 0 18px 20px;
+                        margin-bottom: 20px;
                     }
                 }
 
@@ -86,6 +124,7 @@
                 border: 1px solid #9C9C9C;
                 width: 100%;
                 padding: 18px 0 18px 20px;
+                margin-bottom: 20px;
             }
 
             .email .active {
@@ -96,6 +135,7 @@
                 border: 1px solid #9C9C9C;
                 width: 100%;
                 padding: 18px 0 18px 20px;
+                margin-bottom: 20px;
             }
 
             .tel .active {
@@ -106,6 +146,7 @@
                 border: 1px solid #9C9C9C;
                 width: 100%;
                 padding: 18px 0 80px 20px;
+                margin-bottom: 20px;
             }
 
             .mess .active {
