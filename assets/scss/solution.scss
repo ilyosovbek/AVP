@@ -18,6 +18,11 @@
       color: #000000;
       margin-top: 1.5%;
       margin-bottom: 4%;
+
+      @media (max-width: 540px) {
+        width: 30%;
+        font-size: 22px;
+      }
     }
 
     .little {
@@ -29,6 +34,10 @@
       color: #000000;
       background-color: #ffffff;
       margin-bottom: 2%;
+
+      @media (max-width: 540px) {
+        font-size: 14px;
+      }
     }
 
     .rental-img {
@@ -39,39 +48,77 @@
   }
 }
 
-.project-service{
-    .block {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 5%;
-        margin-top: 3%;
-  
-        .block-img {
-          width: 60%;
+.project-service {
+  .block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 3%;
+
+    .block-img {
+      width: 60%;
+    }
+
+    .mini-block {
+      width: 32%;
+
+      .main-text {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 140%;
+        color: #333333;
+        margin-bottom: 12%;
+
+        @media (max-width: 785px) {
+          font-size: 26px;
         }
-  
-        .mini-block {
-          width: 32%;
-  
-          .main-text {
-            font-family: "Poppins";
-            font-style: normal;
-            font-weight: 600;
-            font-size: 32px;
-            line-height: 140%;
-            color: #333333;
-            margin-bottom: 12%;
-          }
-  
-          .mini-text {
-            font-family: "Poppins";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 160%;
-            color: #a8a8a8;
-          }
+
+        @media (max-width: 650px) {
+          font-size: 22px;
+          line-height: 120%;
+        }
+
+        @media (max-width: 550px) {
+          font-size: 20px;
+          line-height: 100%;
+        }
+
+        @media (max-width: 450px) {
+          font-size: 18px;
+          line-height: 80%;
         }
       }
+
+      .mini-text {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        color: #a8a8a8;
+
+        @media (max-width: 785px) {
+          font-size: 16px;
+        }
+
+        @media (max-width: 650px) {
+          font-size: 14px;
+          line-height: 140%;
+        }
+
+        @media (max-width: 550px) {
+          font-size: 12px;
+          line-height: 120%;
+        }
+
+        @media (max-width: 450px) {
+          font-size: 10px;
+          line-height: 100%;
+        }
+      }
+    }
+  }
 
 }
