@@ -8,32 +8,35 @@
                         Будем рады вашим комментариям и вопросам</p>
                 </div>
                 <div class="ct-center">
-                    <form class="form">
+                    <form class="form" method="POST" @submit.prevent="submit">
                         <div class="fr-names">
                             <div class="fr-left">
                                 <h3 class="fr-title">First Name</h3>
                                 <label for="name">
-                                    <input type="text" class="name-inp" id="name" required placeholder="First Name">
+                                    <input type="text" class="name-inp" id="name" v-model="name
+                                        " required placeholder="First Name">
                                 </label>
                             </div>
                             <div class="fr-right">
                                 <h3 class="fr-title">Last Name</h3>
                                 <label for="name">
-                                    <input type="text" class="name-inp" id="name" required placeholder="Last Name">
+                                    <input type="text" class="name-inp surname" v-model="surname" id="name" required
+                                        placeholder="Last Name">
                                 </label>
                             </div>
                         </div>
                         <h3 class="fr-title">Email</h3>
                         <label for="email">
-                            <input type="email" id="email" class="email" placeholder="email">
+                            <input type="email" id="email" class="email" v-model="email" placeholder="email">
                         </label>
                         <h3 class="fr-title">Phone Number</h3>
                         <label for="tel">
-                            <input type="tel" id="tel" class="tel" placeholder="Phone number" required>
+                            <input type="tel" id="tel" class="tel" v-model="tel" placeholder="Phone number" required>
                         </label>
                         <h3 class="fr-title">Message</h3>
                         <label for="mess">
-                            <input type="textarea" id="tel" class="mess" placeholder="Your Message" required>
+                            <input type="textarea" id="mess" v-model="mess" class="mess" placeholder="Your Message"
+                                required>
                         </label>
                         <div class="btn-block">
                             <button class="btn">Send Massage</button>
@@ -41,7 +44,6 @@
                     </form>
                 </div>
                 <div class="a-top">
-                    <p class="a-text">Location</p>
                     <div class="a-line"></div>
                 </div>
                 <div class="tech-ser-btm">
@@ -74,3 +76,23 @@
         </div>
     </section>
 </template>
+<script>
+export default {
+
+    data() {
+        return {
+            name: "",
+            surname: "",
+            email: "",
+            tel: "",
+            mess: "",
+        }
+    },
+    methods:{
+        submit(){
+         console.log('submited');
+        }
+    }
+}
+
+</script>
