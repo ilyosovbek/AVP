@@ -78,7 +78,6 @@
 </template>
 <script>
 export default {
-
     data() {
         return {
             name: "",
@@ -86,13 +85,25 @@ export default {
             email: "",
             tel: "",
             mess: "",
-        }
+
+            token: "5883645347:AAHnCr8ePB7fAUfo5BfE19lqTKh15w_gtUg",
+            chat_id: "-988333959",
+        };
     },
-    methods:{
-        submit(){
-         console.log('submited');
-        }
-    }
-}
+    methods: {
+        async submit() {
+            const fullMessage = `Name: ${this.name} \n Surname: ${this.surname} \n Email: ${this.email} \n Phone number: ${this.tel} \n Comment: ${this.mess}`;
+
+            const responce = await fetch(
+                `https://api.telegram.org/bot${this.token}/sendMessage?chat_id=${this.chat_id}&text=${fullMessage}&parse_mode=HTML`
+            );
+            this.name = "";
+            this.surname = "";
+            this.email = "";
+            this.tel = "";
+            this.mess = "";
+        },
+    },
+};
 
 </script>
